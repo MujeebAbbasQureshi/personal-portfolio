@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0c1022;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 10px;
+    background-color: rgb(37, 3, 70);
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.head{
+    font-size: 80px;
+    font-weight: 1000px;
+    padding: 4px 0px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    padding-top: 50px;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+
+font-size: 3rem;
+}
+.rightSection img{
+    border-radius:80px ;
+}
+.purple{
+    color: rgb(170 107 228);
+}
+#element{
+    color: rgb(170 107 228);  
+}
+.gray{
+    color: gray;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+    background: white;
+    width: 74vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+}
+.vertical-desc{
+position: relative;
+top: 86px;
+color: white;
+width: 150px;
+font-size: 9px;
+}
+footer{
+    background-color: #0e0e1a;
+    
+}
+footer p{
+    font-size: 20px;
+}
+.social-icons{
+    font-size: 30px;
+    padding-left: 42vw;
+    
+}
+
+
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.c-left p{
+   
+    font-size: 20px;
+    padding-top: 2%;
+    
+}
+.c-left i{
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+}
+.endd{
+    background-color: rgb(13, 4, 21); ;
+    padding-left: 35%;
+}
+.endd p{
+    color: white;
+    font-size: medium;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+.endd :hover{
+    transform: translateY(-5px);
+}
+/* Adjust the size and style of the header text for small screens */
+header .left {
+    font-size: 30px;
+}
+
+/* Adjust the footer style for small screens */
+footer {
+    text-align: center;
+}
+
+/* Adjust the padding and font size of the footer links */
+footer a {
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* Make the social icons larger for better touch interaction */
+.social-icons a {
+    font-size: 40px;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width:200px){
+    .rightSection img{
+        width: 100px;
+        
+        }
+        .nav head{
+            width: 100px;
+        }
+        
+    }
+    @media only screen and (min-width:200px) and (max-width:300px){
+        .rightSection img{
+            width: 110px;
+            
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:400px){
+            .rightSection img{
+                width: 150px;
+                
+                }
+            }
+
+@media only screen and (min-width:400px) and (max-width:500px){
+    .rightSection img{
+        width: 175px;
+        
+        }
+    }
+@media(min-width:500px) and (max-width:600px){
+    .rightSection img{
+        width: 200px;
+        
+        }
+    }
+    @media(min-width:600px) and (max-width:700px){
+        .rightSection img{
+            width: 240px;
+            
+            }
+        }
+        @media(min-width:700px) and (max-width:800px){
+            .rightSection img{
+                width: 300px;
+                
+                }
+            }
+@media(min-width:800px){
+    .rightSection img{
+        width: 400px;
+        
+        }
+    }
